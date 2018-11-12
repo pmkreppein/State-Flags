@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A08160C217E74D3008C173D /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A08160B217E74D3008C173D /* MasterTableViewController.swift */; };
+		3A08160E217E75C3008C173D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A08160D217E75C3008C173D /* DetailViewController.swift */; };
 		3AEA4B77217E714200F9050C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA4B76217E714200F9050C /* AppDelegate.swift */; };
-		3AEA4B79217E714200F9050C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA4B78217E714200F9050C /* ViewController.swift */; };
 		3AEA4B7C217E714200F9050C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA4B7A217E714200F9050C /* Main.storyboard */; };
 		3AEA4B7E217E714700F9050C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA4B7D217E714700F9050C /* Assets.xcassets */; };
 		3AEA4B81217E714700F9050C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA4B7F217E714700F9050C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A08160B217E74D3008C173D /* MasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
+		3A08160D217E75C3008C173D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3AEA4B73217E714200F9050C /* State Flags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "State Flags.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AEA4B76217E714200F9050C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3AEA4B78217E714200F9050C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3AEA4B7B217E714200F9050C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AEA4B7D217E714700F9050C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AEA4B80217E714700F9050C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				3AEA4B76217E714200F9050C /* AppDelegate.swift */,
-				3AEA4B78217E714200F9050C /* ViewController.swift */,
+				3A08160B217E74D3008C173D /* MasterTableViewController.swift */,
+				3A08160D217E75C3008C173D /* DetailViewController.swift */,
 				3AEA4B7A217E714200F9050C /* Main.storyboard */,
 				3AEA4B7D217E714700F9050C /* Assets.xcassets */,
 				3AEA4B7F217E714700F9050C /* LaunchScreen.storyboard */,
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AEA4B79217E714200F9050C /* ViewController.swift in Sources */,
+				3A08160E217E75C3008C173D /* DetailViewController.swift in Sources */,
 				3AEA4B77217E714200F9050C /* AppDelegate.swift in Sources */,
+				3A08160C217E74D3008C173D /* MasterTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4YU3YC35ZT;
 				INFOPLIST_FILE = "State Flags/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4YU3YC35ZT;
 				INFOPLIST_FILE = "State Flags/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
